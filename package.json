@@ -1,8 +1,8 @@
 {
-  "name": "react-xarrows",
-  "version": "2.0.2",
-  "author": "Eliav Louski",
-  "description": "Draw arrows (or lines) between components in React!",
+  "name": "@viktormarinho/react-xarrows",
+  "version": "1.0.0",
+  "author": "Viktor Marinho",
+  "description": "Fork of react-xarrows",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -18,20 +18,10 @@
     "clear:lib": "del /q lib && for /d %x in (lib\\*) do @rd /s /q \"%x\"",
     "prepublishOnly": "pnpm run build"
   },
-  "homepage": "https://eliav2.github.io/react-xarrows/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Eliav2/react-xarrows"
-  },
-  "bugs": "https://github.com/Eliav2/react-xarrows/issues",
   "dependencies": {
     "@types/prop-types": "^15.7.3",
     "lodash": "^4.17.21",
     "prop-types": "^15.7.2"
-  },
-  "funding": {
-    "type": "individual",
-    "url": "https://www.paypal.com/donate?hosted_button_id=CRQ343F9VTRS8"
   },
   "peerDependencies": {
     "react": ">=16.8.0"
@@ -63,41 +53,15 @@
     "ts-loader": "^9.2.3",
     "ts-node": "^9.1.1",
     "typescript": "^4.3.4",
-    "webpack": "^5.44.0",
+    "webpack": "^5.83.1",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2",
     "webpack-node-externals": "^3.0.0"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
   "license": "MIT",
   "files": [
     "lib",
     "package.json",
     "README.md"
-  ],
-  "prettier": {
-    "printWidth": 120,
-    "jsxBracketSameLine": true,
-    "singleQuote": true,
-    "tabWidth": 2
-  },
-  "keywords": [
-    "react",
-    "reactjs",
-    "line",
-    "lines",
-    "arrow",
-    "arrows",
-    "xarrows",
-    "draw",
-    "connect",
-    "between",
-    "elements",
-    "element"
   ]
 }
