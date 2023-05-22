@@ -65,7 +65,8 @@ export const getShortestLine = (sPoints: t1[], ePoints: t1[]) => {
 };
 
 export const getElemPos = (elem: HTMLElement) => {
-  if (!elem) return { x: 0, y: 0, right: 0, bottom: 0 };
+  console.log(elem);
+  if (!elem) throw new Error('Could not get Element position.');
   const pos = elem.getBoundingClientRect();
   return {
     x: pos.left,
