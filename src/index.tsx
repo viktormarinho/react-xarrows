@@ -1,4 +1,4 @@
-export { default, getPosition } from './Xarrow/Xarrow';
+export { default, getElemPos } from './Xarrow/Xarrow';
 export * from './types';
 export * from './constants';
 export { default as Xwrapper } from './Xwrapper';
