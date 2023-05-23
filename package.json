@@ -1,6 +1,6 @@
 {
   "name": "@viktormarinho/react-xarrows",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Viktor Marinho",
   "description": "Fork of react-xarrows",
   "main": "./lib/index.js",

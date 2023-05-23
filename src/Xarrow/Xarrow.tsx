@@ -4,6 +4,7 @@ import useXarrowProps from './useXarrowProps';
 import { XarrowContext } from '../Xwrapper';
 import XarrowPropTypes from './propTypes';
 import { getPosition } from './utils/GetPosition';
+export { getPosition } from './utils/GetPosition';
 
 const log = console.log;
 
