@@ -325,6 +325,12 @@ const useXarrowProps = (
   // const propsRefs = _propsRefs.current;
   propsRefs['shouldUpdatePosition'] = shouldUpdatePosition;
   const curProps = { ...defaultProps, ...userProps };
+  
+  console.log("START VALUE:", propsRefs.start);
+  console.log("END VALUE:", propsRefs.end);
+  console.log("ShouldUpdatePosition inside propsrefs", propsRefs['shouldUpdatePosition']);
+  console.log("ShouldUpdatePosition useRef", shouldUpdatePosition);
+
 
   // react states the number of hooks per render must stay constant,
   // this is ok we are using these hooks in a loop, because the number of props in defaultProps is constant,

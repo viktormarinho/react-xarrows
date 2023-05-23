@@ -64,8 +64,8 @@ export const getShortestLine = (sPoints: t1[], ePoints: t1[]) => {
   return closestPair;
 };
 
-export const getElemPos = (elem: HTMLElement) => {
-  if (!elem) return { x: 0, y: 0, right: 0, bottom: 0 };
+export const getElemPos = (elem: HTMLElement | undefined) => {
+  if (!elem) return null;
   const pos = elem.getBoundingClientRect();
   return {
     x: pos.left,
